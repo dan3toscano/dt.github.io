@@ -1,0 +1,156 @@
+.col-sm-4 {
+  font-size: 32px;
+  color: black;
+}
+.topthreeparagraphs {
+  color: red;
+}
+.col-sm-6 #firstfav {
+  font-size: 50px;
+  font-weight: 100;
+  color: blue;
+  text-align: center;
+}
+.col-sm-6 #secondfav {
+  font-size: 40px;
+  font-weight: 200;
+  color: orange;
+  text-align: center;
+}
+.col-sm-6 #thirdfav {
+  font-size: 120px;
+  font-weight: 50;
+  color: pink;
+  text-align: center;
+}
+.col-sm-6 #fourthfav {
+  font-size: 75px;
+  font-weight: 150;
+  color: yellow;
+  text-align: center;
+}
+.container #quotes {
+  font-weight: bold;
+  text-align: center;
+  color: black;
+}
+.container #firstquote {
+  color: purple;
+  font-size: 20px;
+  font-family: arial;
+}
+.container #secondquote {
+  color: green;
+  font-size: 15px;
+  font-family: serif;
+}
+.container #thirdquote {
+  color: black;
+  font-size: 12px;
+  font-family: fantasy;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: red;
+}
+header {
+  padding: 20px 0;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url(https://i.etsystatic.com/6955108/r/il/5b579f/884430148/il_570xN.884430148_ca5h.jpg);
+  background-size: cover;
+  color: #ffffff;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+}
+
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: #fff;
+}
+
+.firstfav p {
+  font-size: 50px;
+  font-weight: 100px;
+  color: blue;
+  align-items: center;
+}
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+.col-md-6 {
+  margin: 0 0 30px;
+}
+
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: #fbd1d5;
+  text-shadow: none;
+  background-color: #ffffff;
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #fbd1d5;
+}
+
+.btn-secondary {
+  background-color: #E8DFE0;
+  color: #ffffff;
+  margin: 0 0 30px;
+}
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
